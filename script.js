@@ -9,9 +9,17 @@ btnAdd.addEventListener('click', function () {
         todoHTML += `
             <li class="list-group-item">
                 <input class="form-check-input me-1" type="checkbox">
-                Ngoding
+                <span>${todoName.value}</span>
             </li>`;
         
         todoContainer.innerHTML = todoHTML;
+        todoName.value = '';
+        todoName.focus();
+
+        let checkTodo = document/this.querySelectorAll('.form-check-input');
+        for(let i = 0; Array.length; i++){
+            const input = checkTodo[i];
+        }
     }
 });
+
